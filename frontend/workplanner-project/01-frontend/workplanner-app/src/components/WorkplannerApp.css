@@ -1,0 +1,81 @@
+body {
+	overflow-y: scroll;
+}
+
+header {
+	box-shadow: 0 3px 4px 0 rgba(53, 53, 53, 0.2);
+}
+
+.nav-highlight:hover,
+.dropdown-item-highlight:hover {
+	color: black;
+	transition: all 0.1s;
+	transform: scale(1.1);
+}
+
+header .dropdown-menu {
+	--bs-dropdown-link-active-bg: rgb(248, 249, 250);
+}
+
+.btn.btn-confirm {
+	background-color: #4a9ff5fd;
+	color: white;
+	border: none;
+}
+
+.btn.btn-confirm:hover {
+	background-color: #4a9ff5fd;
+}
+
+.btn.btn-confirm:active {
+	background-color: #1b86f1fd !important;
+	transition: all 0.2s;
+	transform: scale(0.99);
+}
+
+.btn.btn-confirm:disabled {
+	background-color: #4a9ff5fd;
+	color: white;
+	border: none;
+}
+
+.btn.btn-delete {
+	background-color: white;
+	color: #4a9ff5fd;
+	border-color: #4a9ff5fd;
+}
+
+.btn.btn-delete:hover {
+	background-color: white;
+	color: #4a9ff5fd;
+	border-color: #4a9ff5fd;
+}
+
+.btn.btn-delete:active {
+	background-color: white !important;
+	color: #007bf7fd !important;
+	border-color: #007bf7fd !important;
+	transition: all 0.2s;
+	transform: scale(0.99);
+}
+
+.btn.btn-delete:disabled {
+	background-color: white;
+	color: #afb7c0b2;
+	border-color: #afb7c0b2;
+}
+
+.login-inputs {
+	caret-color: transparent;
+}
+
+.login-card {
+	min-width: 500px;
+	max-width: 800px;
+	box-shadow: 2px 2px 4px 0 rgba(53, 53, 53, 0.2);
+}
+
+.list-item-card,
+.data-card {
+	box-shadow: 2px 2px 4px 0 rgba(53, 53, 53, 0.2);
+}
